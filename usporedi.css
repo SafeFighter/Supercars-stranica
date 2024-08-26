@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.container{
+    width:100%;
+    min-height: 100vh;
+    background: #222;
+}
+.container h2{
+    color:#fff;
+    font-size: 32px;
+    padding: 50px 0;
+    text-align: center;
+}
+.redak{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:25px;
+}
+
+.stupci{
+    background: gray;
+    padding: 10% 15%;
+    border-radius: 10px;
+    color:#fff;
+    text-align: center;;
+}
+.stupci h3{
+    font-size:30px;
+    margin: 20px 0;
+    font-weight: 500;
+}
+.stupci ul{
+    text-align: left;
+    margin:20px 0;
+    color:#fff;
+    list-style:none;
+}
+.stupci ul li{
+    margin: 15px 0;
+
+
+}
+#chiron:hover{
+    
+    background-image: url("slika13.jpg");
+    
+}
+#aventador:hover{
+    
+    background-image: url("slika14.jpg");
+    
+}
+#nevera:hover{
+    
+    background-image: url("slika15.jpg");
+    
+}
+#sf90:hover{
+    
+    background-image: url("slika16.jpg");
+    
+}
+.btn{
+    
+    text-align: center;
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-top:5px;
+    margin-left: 5px;
+}
+.povratak{
+    width:100%;
+    background-color:#222;
+}

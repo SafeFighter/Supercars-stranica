@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Supercars</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/55/55216.png">
+</head>
+<body>
+    <div class="header" id="header">
+        <nav>
+            <a href="#" class="btn" id="pocetno">Početno</a>
+            <ul>
+                
+                <li><a href="#" id="chiron">Chiron</a></li>
+                <li><a href="#" id="aventador">Aventador</a></li>
+                <li><a href="#" id="nevera">Nevera</a></li>
+                <li><a href="#" id="sf90">SF90</a></li>
+            </ul>
+            <a href="saznajvise.html" class="btn">Saznaj više</a>
+        </nav>
+        <div class="info" id="info">
+            <div>
+                <h2 id="sek" ><span class="auto-type"></span></h2>
+                <p id="nula"><span class="auto-type"></span></p>
+            </div>
+            <div>
+                <h2 id="brzina"><span class="auto-type"></span></h2>
+                <p id="tops"><span class="auto-type"></span></p>
+            </div>
+            <div>
+                <h2 id="model"><span class="auto-type"></span></h2>
+                <p id="naziv"><span class="auto-type"></span></p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script>
+
+        var header = document.getElementById("header");
+        var pocetno = document.getElementById("pocetno")
+        var chiron = document.getElementById("chiron");
+        var aventador = document.getElementById("aventador");
+        var nevera = document.getElementById("nevera");
+        var sf90 = document.getElementById("sf90");
+      
+        pocetno.onclick=function(){
+            header.style.backgroundImage="url(bodyslika.jpg)";
+            sek.innerHTML="";
+            nula.innerHTML="";
+            brzina.innerHTML="";
+            tops.innerHTML="";
+            model.innerHTML="";
+            naziv.innerHTML="";
+        }
+        chiron.onclick=function(){
+            header.style.backgroundImage= "url(chiron.jpg)";
+            sek.innerHTML="2.4 s";
+            nula.innerHTML="0-100";
+            brzina.innerHTML="420 km/h";
+            tops.innerHTML="Najveća brzina";
+            model.innerHTML="Bugatti Chiron";
+            naziv.innerHTML="Naziv";
+        }
+        aventador.onclick=function(){
+            header.style.backgroundImage= "url(aventador.jpg)";
+            sek.innerHTML="2.9 s";
+            nula.innerHTML="0-100";
+            brzina.innerHTML="350 km/h";
+            tops.innerHTML="Najveća brzina";
+            model.innerHTML="Lamborghini Aventador";
+            naziv.innerHTML="Naziv";
+        }
+        nevera.onclick=function(){
+            header.style.backgroundImage= "url(nevera.jpg)";
+            sek.innerHTML="1.97 s";
+            nula.innerHTML="0-100";
+            brzina.innerHTML="412 km/h";
+            tops.innerHTML="Najveća brzina";
+            model.innerHTML="Rimac Nevera";
+            naziv.innerHTML="Naziv";
+        }
+        sf90.onclick=function(){
+            header.style.backgroundImage= "url(sf90.jpg)";
+            sek.innerHTML="2.5 s";
+            nula.innerHTML="0-100";
+            brzina.innerHTML="340 km/h";
+            tops.innerHTML="Najveća brzina";
+            model.innerHTML="Ferrari SF90";
+            naziv.innerHTML="Naziv";
+        }
+    
+    </script>
+ 
+
+</body>
+</html>
